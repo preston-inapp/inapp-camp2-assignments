@@ -10,21 +10,3 @@
 
 for i in range(1, 11):
     print(_num, "*", i, "=", _num*i) """
-
-from tabnanny import check
-
-
-def checkPrime(num):
-    s = 0
-    for i in range(1,num+1):
-        if num%i==0:
-            s = s + 1
-    if(s>2):
-        return False
-    else:
-        return True
-
-print(checkPrime(5))
-print(checkPrime(2))
-print(checkPrime(12))
-print(checkPrime(55))
