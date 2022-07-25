@@ -2,7 +2,7 @@ class PhoneBook:
 
     def __init__(self, filename):
         self.filename = filename
-        file = open(filename, "r")
+        file = open(filename, "w+")
         self.pb = dict()
         for line in file:
             contact = line.split()
