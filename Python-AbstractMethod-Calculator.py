@@ -67,10 +67,10 @@ class CalcQuo(Calculator):
 
 
 
-# c = CalcSum(20,"3i4")
-# c.calculate()
-# c.display()
-
-c = CalcProd(20,12)
+c = CalcSum(20,"3i4")
 c.calculate()
 c.display()
+
+# c = CalcProd(20,12)
+# c.calculate()
+# c.display()
