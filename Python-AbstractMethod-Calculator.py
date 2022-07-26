@@ -67,7 +67,7 @@ class CalcQuo(Calculator):
 
 
 
-c = CalcSum(20,"3i4")
+c = CalcSum("12","23")
 c.calculate()
 c.display()
 
