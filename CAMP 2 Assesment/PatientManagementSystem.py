@@ -85,11 +85,11 @@ while(True):
     match int(input("CHOICE >> ")):
         case 1:
             if kims.addPatient(
-                int(input("Patient ID : ")),
-                input("Name : "),
-                input("Gender : "),
-                input("Age : "),
-                input("Blood Group : ")
+                validateAndReturnInt(input("Patient ID : ")),
+                validateAndReturn(input("Name : ")),
+                validateAndReturn(input("Gender : ")),
+                validateAndReturn(input("Age : ")),
+                validateAndReturn(input("Blood Group : "))
             ):
                 print("Patient registered successfully")
             else:
